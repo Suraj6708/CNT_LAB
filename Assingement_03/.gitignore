@@ -1,0 +1,79 @@
+# Node modules
+**/node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories (if you keep front/back in separate folders)
+/Backend/node_modules/
+/Frontend/node_modules/
+
+# Build outputs
+/Frontend/dist/
+/Frontend/build/
+/Backend/dist/
+/Backend/build/
+
+# Vite / Parcel / Next / Create React App
+/Frontend/.vite/
+.parcel-cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional npm cache
+.npm
+
+# Coverage
+coverage/
+
+# Runtime files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Logs and temp
+/tmp
+/temp
+
+# Test output
+test-results/
+
+# Misc
+*.env.local
+.env.production.local
+.env.development.local
+
+# Seed / uploads
+uploads/
+
+# Yarn v2+ cache
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Lockfiles (keep one per project if desired)
+# Uncomment if you want to ignore lockfiles at repo root
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
